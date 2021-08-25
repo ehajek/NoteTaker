@@ -26,13 +26,17 @@ router.get('/notes', (req, res) => {
 
   router.post('/notes', (req, res) => {
     // set id based on what the next index of the array will be
+    console.log(notes);
     req.body.id = notes.length.toString();
   
     if (!validateNotes(req.body)) {
         res.status(400).send('The note is not properly formatted.');
       } else {
-        const notes = createNewNotes(req.body, notes);
-        res.json(notes);
+        //   console.log('Test NewNote');
+        //   console.log(req.body)
+        const note = createNewNotes(req.body, notes);
+
+        res.json(note);
       }
     });
     
