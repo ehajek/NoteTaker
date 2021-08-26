@@ -24,7 +24,7 @@ The website mockup image loaction is "./11-express-homework-demo-01.png"
 
 ## Sample Site
 
-The sample site for the NoteTaker Homepage is lockated at "https://ehajek.github.io/NoteTaker/". 
+The sample site for the NoteTaker Homepage is lockated at "https://ejh-notetaker.herokuapp.com/". 
 
 ## GitHub Repository 
 
